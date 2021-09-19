@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "16818222649",
+    "project_id": "hacodisha",
+    "storage_bucket": "hacodisha.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:16818222649:android:1219824011e05a87fcbfe8",
+        "android_client_info": {
+          "package_name": "com.example.hacodisha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "16818222649-s1l70clee8c924j3e602n7kul2si3lc8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBucaQO7PfRKNmrgnsqg97SlOGWubTxfr0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "16818222649-s1l70clee8c924j3e602n7kul2si3lc8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

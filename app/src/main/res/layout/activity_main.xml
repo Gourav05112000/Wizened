@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bg">
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:layout_above="@+id/tag"
+        android:background="@drawable/img"/>
+
+    <TextView
+        android:id="@+id/tag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="29dp"
+
+        android:gravity="center"
+        android:text="Wizened - the aura conjecture"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/resisterOrlogin"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/tag"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button"
+        android:onClick="reg"
+
+
+        android:text="REGISTER"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/resisterOrlogin"
+        android:layout_centerInParent="true"
+        android:text="if registered "
+        android:textColor="@color/white"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_below="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"
+        android:text="login"
+        android:textSize="20dp"
+        android:textColorHint="@color/purple_500"
+        android:textColor="#8AADD1"
+        android:onClick="log"
+        />
+
+
+
+
+</RelativeLayout>
